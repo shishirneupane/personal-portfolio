@@ -55,7 +55,7 @@ hr {
 
 .list-item-inline {
   display: inline;
-  padding: 0 0.5rem;
+  padding: 0 0.15rem;
 }
 
 /* navigation */
@@ -74,6 +74,7 @@ hr {
 
 .navigation .nav-items {
   text-align: right;
+  padding-inline-start: 0px;
 }
 
 .navigation .link {
@@ -96,7 +97,8 @@ hr {
 }
 
 .hero .hero-img {
-  max-width: 450px;
+  max-width: 100%;
+  width: 450px;
   display: block;
   margin: auto;
   padding: 1.5rem 0;
@@ -145,6 +147,10 @@ hr {
 
 .list-section hr {
   margin: 0 0 0.5rem;
+}
+
+.showcase-list {
+  padding: 1rem 2rem;
 }
 
 /* footer */
