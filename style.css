@@ -80,6 +80,10 @@ hr {
   color: var(--white);
 }
 
+.navigation .nav-brand .link {
+  padding: 0;
+}
+
 .navigation .link-active {
   font-weight: bold;
   font-size: 1.15rem;
@@ -122,24 +126,24 @@ hr {
   background-color: var(--off-white);
 }
 
-/* projects section */
+/* unordered list section */
 
-.projects-section {
+.list-section {
   padding: 0;
   margin: 0;
 }
 
-.projects-section .link {
+.list-section .link {
   margin-right: 1rem;
 }
 
-.projects-section .container-left {
+.list-section .container-left {
   max-width: 500px;
   margin: auto;
-  text-align: left;
+  text-align: justify;
 }
 
-.projects-section hr {
+.list-section hr {
   margin: 0 0 0.5rem;
 }
 
