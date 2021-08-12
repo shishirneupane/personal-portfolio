@@ -4,10 +4,13 @@
   --primary: #ff5200;
   --dark-blue: #3f3d56;
   --off-white: #F3F4F6;
+  --white: #fff;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
+  margin: 0;
+  font-size: 1.05rem;
 }
 
 hr {
@@ -21,8 +24,9 @@ hr {
 }
 
 .container-center {
-  max-width: 600px;
+  max-width: 500px;
   margin: auto;
+  text-align: center;
 }
 
 /* links */
@@ -35,7 +39,7 @@ hr {
 
 .link-primary {
   background-color: var(--primary);
-  color: #fff;
+  color: var(--white);
 }
 
 .link-secondary {
@@ -58,14 +62,14 @@ hr {
 
 .navigation {
   background-color: var(--primary);
-  color: #fff;
+  color: var(--white);
   border-bottom-left-radius: 1rem;
-  padding: 1rem;
+  padding: 1rem 1.5rem;
 }
 
 .navigation .nav-brand {
   font-weight: bold;
-  font-size: 1.1rem;
+  font-size: 1.25rem;
 }
 
 .navigation .nav-items {
@@ -73,12 +77,12 @@ hr {
 }
 
 .navigation .link {
-  color: #fff;
+  color: var(--white);
 }
 
 .navigation .link-active {
   font-weight: bold;
-  font-style: italic;
+  font-size: 1.15rem;
 }
 
 /* header */
@@ -88,9 +92,10 @@ hr {
 }
 
 .hero .hero-img {
-  max-width: 400px;
+  max-width: 450px;
   display: block;
   margin: auto;
+  padding: 1.5rem 0;
 }
 
 .hero .hero-heading {
@@ -106,7 +111,7 @@ hr {
 /* section */
 
 .section {
-  padding: 2rem 0;
+  padding: 2rem 0 3rem;
 }
 
 .section h2 {
@@ -121,22 +126,25 @@ hr {
 
 .footer {
   background-color: var(--primary);
-  color: #fff;
-  border-top-right-radius: 1rem;
-  padding: 2rem 0;
+  color: var(--white);
   text-align: center;
+  border-top-right-radius: 1rem;
+  padding: 2.5rem 0;
 }
 
 .footer .footer-heading {
-  font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   padding: 0 0 1rem 0;
-}
-
-.footer .link {
-  color: #fff;
 }
 
 .footer ul {
   padding: 0;
+}
+
+.footer .link {
+  color: var(--white);
+}
+
+.footer i {
+  font-size: 2.2rem;
 }
