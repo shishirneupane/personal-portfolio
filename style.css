@@ -122,6 +122,27 @@ hr {
   background-color: var(--off-white);
 }
 
+/* projects section */
+
+.projects-section {
+  padding: 0;
+  margin: 0;
+}
+
+.projects-section .link {
+  margin-right: 1rem;
+}
+
+.projects-section .container-left {
+  max-width: 500px;
+  margin: auto;
+  text-align: left;
+}
+
+.projects-section hr {
+  margin: 0 0 0.5rem;
+}
+
 /* footer */
 
 .footer {
