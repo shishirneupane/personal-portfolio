@@ -136,7 +136,10 @@ hr {
 }
 
 .list-section .link {
-  margin-right: 1rem;
+  display: block;
+  margin: 0.5rem 0;
+  max-width: 6rem;
+  text-align: center;
 }
 
 .list-section .container-left {
