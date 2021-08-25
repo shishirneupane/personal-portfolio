@@ -83,6 +83,7 @@ hr {
 
 .navigation .nav-brand .link {
   padding: 0;
+  font-size: 1.5rem;
 }
 
 .navigation .link-active {
@@ -152,8 +153,54 @@ hr {
   margin: 0 0 0.5rem;
 }
 
+.list-section h1 {
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.list-section p {
+  line-height: 1.5rem;
+}
+
+.list-section i {
+  font-size: 3rem;
+  margin: 0 0.8rem 0 0;
+}
+
+.list-section .fa-html5 {
+  color: #dd4b25;
+}
+
+.list-section .fa-css3-alt {
+  color: #254bdd;
+}
+
+.list-section .fa-js-square {
+  color: #efd81d;
+}
+
+.list-section .fa-react {
+  color: #61dafb;
+}
+
+.list-section .fa-node {
+  color: #333;
+}
+
+.list-section .fa-github {
+  color: #1b1f23;
+}
+
+.list-section .fa-bootstrap {
+  color: #8011f5;
+}
+
+.list-section .fa-python {
+  color: #3870a1;
+}
+
 .showcase-list {
-  padding: 1rem 2rem;
+  padding: 0 2rem;
 }
 
 /* footer */
