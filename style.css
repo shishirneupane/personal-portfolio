@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;800&display=swap');
 
 :root {
   --primary: #ff5200;
@@ -8,9 +8,9 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Lato', sans-serif;
   margin: 0;
-  font-size: 1.05rem;
+  font-size: 1.19rem;
 }
 
 hr {
@@ -88,7 +88,7 @@ hr {
 
 .navigation .link-active {
   font-weight: bold;
-  font-size: 1.15rem;
+  font-size: 1.3rem;
 }
 
 /* header */
@@ -139,7 +139,7 @@ hr {
 .list-section .link {
   display: block;
   margin: 0.5rem 0;
-  max-width: 6rem;
+  max-width: 6.5rem;
   text-align: center;
 }
 
