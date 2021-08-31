@@ -214,8 +214,9 @@ hr {
 }
 
 .footer .footer-heading {
-  font-size: 1.3rem;
+  font-size: 1.3em;
   padding: 0 0 1rem 0;
+  font-weight: bold;
 }
 
 .footer ul {
@@ -227,5 +228,5 @@ hr {
 }
 
 .footer i {
-  font-size: 2.2rem;
+  font-size: 2.5rem;
 }
